@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Code/CRMApi/CRMApi/.vs/CRMApi/CopilotIndices/17.14.1431.25910
+/Code/CRMApi/CRMApi/.vs/CRMApi/DesignTimeBuild
+/Code/CRMApi/CRMApi/.vs/CRMApi/FileContentIndex
+/Code/CRMApi/CRMApi/.vs/CRMApi/v17
+/Code/CRMApi/CRMApi/bin/Debug/net8.0
+/Code/CRMApi/CRMApi/obj/Debug/net8.0
+/Code/CRMApi/CRMApi/obj

@@ -20,16 +20,30 @@
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+            "assets": [              
+                "src/favicon.ico",
+                "src/assets"              
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/plugins/fontawesome-free/css/all.min.css",
+              "src/assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css",
+              "src/assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css",              
+              "src/assets/dist/css/adminlte.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/plugins/jquery/jquery.min.js",
+              "src/assets/plugins/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js",
+              "src/assets/dist/js/adminlte.min.js",
+              "src/assets/plugins/jquery-mousewheel/jquery.mousewheel.js",
+              "src/assets/plugins/raphael/raphael.min.js",
+              "src/assets/plugins/jquery-mapael/jquery.mapael.min.js",
+              "src/assets/plugins/jquery-mapael/maps/usa_states.min.js",
+              "src/assets/plugins/chart.js/Chart.min.js",
+              "src/assets/dist/js/demo.js",
+              "src/assets/dist/js/pages/dashboard2.js"
+            ]
           },
           "configurations": {
             "production": {
